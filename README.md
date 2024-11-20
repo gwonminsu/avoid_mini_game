@@ -18,6 +18,7 @@
     git clone https://github.com/gwonminsu/avoid_mini_game.git
     cd your-repo
 2. 터미널에서 아래 명령어를 입력하여 실행합니다.
+    ```bash
     start index.html
 
 ## 🎮 게임 방법
