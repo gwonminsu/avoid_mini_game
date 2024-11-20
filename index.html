@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>똥 피하기 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="score">점수: 0</div>
+    <div id="cooldown">
+        <div id="cooldownText">[스페이스바] 구르기 (준비완료)</div>
+        <div id="cooldownBar"></div>
+    </div>
+    <div id="gameOverModal" class="modal">
+        <h2>게임 오버!</h2>
+        <p>최종 점수: <span id="finalScore">0</span></p>
+        <button class="restart-btn" onclick="restartGame()">다시하기</button>
+    </div>
+    <div id="livesContainer"></div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
+
